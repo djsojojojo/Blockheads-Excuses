@@ -259,7 +259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010210685118, guid: c0aca8cff20dd8c41966860267a90d82, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.49
+      value: 1.29
       objectReference: {fileID: 0}
     - target: {fileID: 4000010210685118, guid: c0aca8cff20dd8c41966860267a90d82, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1066,12 +1066,16 @@ PrefabInstance:
       value: Ladies Gym
       objectReference: {fileID: 0}
     - target: {fileID: 4000013398938074, guid: 78416239c48d6be48b5eb9b93e033e9b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000013398938074, guid: 78416239c48d6be48b5eb9b93e033e9b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.0381126
+      value: 6.9561
       objectReference: {fileID: 0}
     - target: {fileID: 4000013398938074, guid: 78416239c48d6be48b5eb9b93e033e9b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000037221736
+      value: 0.000037193
       objectReference: {fileID: 0}
     - target: {fileID: 4000013398938074, guid: 78416239c48d6be48b5eb9b93e033e9b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1300,7 +1304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011434501960, guid: db33fe4f28d96724fbb131efd83b6650, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.1
+      value: -7.1000004
       objectReference: {fileID: 0}
     - target: {fileID: 4000011434501960, guid: db33fe4f28d96724fbb131efd83b6650, type: 3}
       propertyPath: m_LocalPosition.y
