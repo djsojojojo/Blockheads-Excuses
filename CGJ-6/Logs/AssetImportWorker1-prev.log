@@ -1,0 +1,1201 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fi' Physical Memory: 8090 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Koulu/CGJ6/CGJ-6
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50190
+Successfully changed project path to: D:/Koulu/CGJ6/CGJ-6
+D:/Koulu/CGJ6/CGJ-6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11484] Host "[IP] 192.168.100.118 [Port] 0 [Flags] 2 [Guid] 1688863919 [EditorId] 1688863919 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JU2S8O7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11484] Host "[IP] 192.168.100.118 [Port] 0 [Flags] 2 [Guid] 1688863919 [EditorId] 1688863919 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-JU2S8O7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 137.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path D:/Program Files/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Koulu/CGJ6/CGJ-6/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2008 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'D:/Program Files/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009649 seconds.
+- Loaded All Assemblies, in  0.868 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.487 seconds
+Domain Reload Profiling: 1356ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (428ms)
+			TypeCache.Refresh (426ms)
+				TypeCache.ScanAssembly (402ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (488ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.848 seconds
+Refreshing native plugins compatible for Editor in 2.93 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.752 seconds
+Domain Reload Profiling: 1599ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (504ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (753ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3544.
+Memory consumption went from 120.8 MB to 120.8 MB.
+Total: 5.483500 ms (FindLiveObjects: 0.383500 ms CreateObjectMapping: 0.309200 ms MarkObjects: 4.587600 ms  DeleteObjects: 0.202000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2648.177370 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Blue Apartment.prefab
+  artifactKey: Guid(7907d115c6bfbff46bed778c8666c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Blue Apartment.prefab using Guid(7907d115c6bfbff46bed778c8666c9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e6c1b63582ed431ed8fbd576141b01') in 0.890451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Car Paint.prefab
+  artifactKey: Guid(43f929bf2a6db86418b0d95396a19ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Car Paint.prefab using Guid(43f929bf2a6db86418b0d95396a19ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe6128cb88adfd88581d787291c488d') in 0.030410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Hotel Small.prefab
+  artifactKey: Guid(b0de9b1a68ac5b446a7f7201e060079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Hotel Small.prefab using Guid(b0de9b1a68ac5b446a7f7201e060079a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf85e2d81546b365ef362c70bbd7eff') in 0.016600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Big Pink.prefab
+  artifactKey: Guid(a10509e7aa6a1dc4c8c366fdea1b1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Big Pink.prefab using Guid(a10509e7aa6a1dc4c8c366fdea1b1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fbf962f9dd517a90e7f3cd9f80f739') in 0.026447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Small Pink.prefab
+  artifactKey: Guid(41488332cc3e4a94faebf6d90ce9fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Small Pink.prefab using Guid(41488332cc3e4a94faebf6d90ce9fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd051d330a1405db629b1510ef9a57de8') in 0.017998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Big Blue.prefab
+  artifactKey: Guid(bcfb6ba67f1226e4a99f2c161766358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Big Blue.prefab using Guid(bcfb6ba67f1226e4a99f2c161766358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ada3ef30ecaed01b3100f9be36a9076') in 0.018599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Small Yellow.prefab
+  artifactKey: Guid(0266a2734d8d4b9409c7b0fc81395384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Stack Small Yellow.prefab using Guid(0266a2734d8d4b9409c7b0fc81395384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465dfb54dd6e3ebbe1bbf216391faab2') in 0.019123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Police Station.prefab
+  artifactKey: Guid(b7a6715c4b1f6164087b7b48068eafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Police Station.prefab using Guid(b7a6715c4b1f6164087b7b48068eafed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a411f6679e2fd3a6a2efa7ebb34055') in 0.021846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Church.prefab
+  artifactKey: Guid(3bad0b72994978a4895e10af1ebe9160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Church.prefab using Guid(3bad0b72994978a4895e10af1ebe9160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fb4b341dcdfea00b089c04f82be9a0') in 0.018923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Restaurant.prefab
+  artifactKey: Guid(a1248e6a6936fc942bdcadf1e48374f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings/Prefabs/Restaurant.prefab using Guid(a1248e6a6936fc942bdcadf1e48374f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c1d0f4830539332638ae282cffb0ac') in 0.020293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 25.363406 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic High Green.prefab
+  artifactKey: Guid(c06f870c9ca0aa749b289816f7e17cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic High Green.prefab using Guid(c06f870c9ca0aa749b289816f7e17cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47a4c62a60d69f3e30d9747174cfddd') in 0.412792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Basic Seven Floor.prefab
+  artifactKey: Guid(6f508d0489ca70e40b11676b5ad2e3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Basic Seven Floor.prefab using Guid(6f508d0489ca70e40b11676b5ad2e3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefc8eafeeefa99388b65effd542a3e9') in 0.023867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Yellow Highest.prefab
+  artifactKey: Guid(b7fd7be0bde4b034395520c633a5d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Yellow Highest.prefab using Guid(b7fd7be0bde4b034395520c633a5d83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88d8dd923e99b8e394d25a8c69a84ac') in 0.020568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Medium.prefab
+  artifactKey: Guid(0a4ae8ad1c20ea2499a5f6a7b93907e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Medium.prefab using Guid(0a4ae8ad1c20ea2499a5f6a7b93907e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f059994031a3f51f317c116aa3d89ce8') in 0.020322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/White Stack High.prefab
+  artifactKey: Guid(dd5e84ff86dc6044cb1912e54b04b116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/White Stack High.prefab using Guid(dd5e84ff86dc6044cb1912e54b04b116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09d0b936b35fcef4962779f170ed2ab') in 0.021485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Highest Blue.prefab
+  artifactKey: Guid(e4e2b88492aeca34dad15b02ecd57037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Highest Blue.prefab using Guid(e4e2b88492aeca34dad15b02ecd57037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61a8866033063f7f99e0ac64a506aca') in 0.019422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Needle Medium.prefab
+  artifactKey: Guid(9fa6988a7dfc54846beb2d4d3b20f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Needle Medium.prefab using Guid(9fa6988a7dfc54846beb2d4d3b20f30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60923f04c2036894a634d52165cb12f') in 0.022909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Low Orange.prefab
+  artifactKey: Guid(ce3b8609fac9e3e499e6bdbb477c4bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Low Orange.prefab using Guid(ce3b8609fac9e3e499e6bdbb477c4bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cd31e03980b5627dc0436985e8d9ff') in 0.020429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Triangular High Blue.prefab
+  artifactKey: Guid(cb7ffbcd8b48b0c4c94b29b3b5d12146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Triangular High Blue.prefab using Guid(cb7ffbcd8b48b0c4c94b29b3b5d12146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3cb93b78e393258994caab82da6b05') in 0.024448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Highest Orange.prefab
+  artifactKey: Guid(8cc1d90bc13d0ad4bb308c62d93104cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Highest Orange.prefab using Guid(8cc1d90bc13d0ad4bb308c62d93104cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1c2f0edb30d70b0a75de18b4c2ca1c') in 0.018260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Low Blue.prefab
+  artifactKey: Guid(9ebc8b09df20701469ecd430889712a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Low Blue.prefab using Guid(9ebc8b09df20701469ecd430889712a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984c8a5daadb6546d37cd4d68bdccd85') in 0.019509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/White Stack Highest.prefab
+  artifactKey: Guid(87939fd0d4fb61242a8673cd61021f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/White Stack Highest.prefab using Guid(87939fd0d4fb61242a8673cd61021f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7082aa5b85d6bdc8ef56c121b7cf6916') in 0.025029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Triangular Highest Doubled Blue.prefab
+  artifactKey: Guid(fe6fc7d8c4342b94f9f77fba0ece35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Triangular Highest Doubled Blue.prefab using Guid(fe6fc7d8c4342b94f9f77fba0ece35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed887a117426378e7716bd944f6f7337') in 0.020451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Low.prefab
+  artifactKey: Guid(dfce9ee8a5daa7c40bc05af0aee7e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Low.prefab using Guid(dfce9ee8a5daa7c40bc05af0aee7e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb04ceb4e8631b90d61b42cda9bb072') in 0.026745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Green Four.prefab
+  artifactKey: Guid(7a089791c8cbc6040acf3c1ff0f0bda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Green Four.prefab using Guid(7a089791c8cbc6040acf3c1ff0f0bda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b2f2c786579d6b629515684ed003e1') in 0.021801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic High Orange.prefab
+  artifactKey: Guid(839c2a666f671a745a811e2145c66fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic High Orange.prefab using Guid(839c2a666f671a745a811e2145c66fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce26cc9a4d0071ff056579c3030f818f') in 0.038889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Green Hat.prefab
+  artifactKey: Guid(f6bf5d37ef36344468b219f3b6f4251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Green Hat.prefab using Guid(f6bf5d37ef36344468b219f3b6f4251b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b911121d31312f352f01a7bc051f7e2a') in 0.019318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Low Green.prefab
+  artifactKey: Guid(f0579dea87999ad48a355389e9a5d43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Low Green.prefab using Guid(f0579dea87999ad48a355389e9a5d43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c248b920d07c7f34cdb0356723fe08c') in 0.016813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House White High.prefab
+  artifactKey: Guid(aa4f03ddf0acd81499880aadf26b54f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House White High.prefab using Guid(aa4f03ddf0acd81499880aadf26b54f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8381a45fa7e5cb21fcb067d58c9347') in 0.018287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower Medium Grey.prefab
+  artifactKey: Guid(344154aa14adea3449298ce84e95a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower Medium Grey.prefab using Guid(344154aa14adea3449298ce84e95a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fdc6c26be1e0489d6fd98dc671d097') in 0.015974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Green One.prefab
+  artifactKey: Guid(a0381884b38cdd74a8f3f93e9d2b471b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Green One.prefab using Guid(a0381884b38cdd74a8f3f93e9d2b471b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9e0bb5b7d5435bafbe86d05a343c8c') in 0.016774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Highest Grey.prefab
+  artifactKey: Guid(08dc6f42cf5ef4549ac4c9610012e28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Highest Grey.prefab using Guid(08dc6f42cf5ef4549ac4c9610012e28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03201ba27d2de77a45ba26cf14ff7712') in 0.041528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Medium 1.prefab
+  artifactKey: Guid(3646924d71cb501438df29eba7959529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Medium 1.prefab using Guid(3646924d71cb501438df29eba7959529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dded60f9d2b9b57f6e34e252ef4d648') in 0.016741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House White Highest.prefab
+  artifactKey: Guid(0a31eedb8d00790439f3864f8c9e1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House White Highest.prefab using Guid(0a31eedb8d00790439f3864f8c9e1a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abb21a364d1584a553264c918c18732') in 0.017015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Highest Green.prefab
+  artifactKey: Guid(d8735e0007ec2af45b43939c17e907bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Highest Green.prefab using Guid(d8735e0007ec2af45b43939c17e907bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9c4c06cb9ee9ea3f3a7214e14a7deb') in 0.017891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Highest.prefab
+  artifactKey: Guid(5679be7e371b21f4a983d0701d0e7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Highest.prefab using Guid(5679be7e371b21f4a983d0701d0e7680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed09059a5237662e5d591fc640ddf4b') in 0.017304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower Low Grey.prefab
+  artifactKey: Guid(322bf8d034ec3c04ead737aad997cab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower Low Grey.prefab using Guid(322bf8d034ec3c04ead737aad997cab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cf92c0ece29e30ccd2a0948d89b03e') in 0.016899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower Low.prefab
+  artifactKey: Guid(c3619bb09764487498cb8f54643edd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower Low.prefab using Guid(c3619bb09764487498cb8f54643edd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c556fd7182e1ab01d4e577258b07735') in 0.017667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Basic Six Floor.prefab
+  artifactKey: Guid(7406b66aabec5ae40bfe95cf871eb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Basic Six Floor.prefab using Guid(7406b66aabec5ae40bfe95cf871eb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c6dd8992f4a0a68c0695fc44c6835a') in 0.017249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Pilars Highest.prefab
+  artifactKey: Guid(dc5d89fcccf06ae4888fccb32eebd6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Pilars Highest.prefab using Guid(dc5d89fcccf06ae4888fccb32eebd6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2457e7cb4f8aacb65e09a1979d7efc') in 0.018715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Triangular Highest Doubled Orange.prefab
+  artifactKey: Guid(ab9fe4a41ed7bd74cbecd00d5e2d4cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Basic Triangular Highest Doubled Orange.prefab using Guid(ab9fe4a41ed7bd74cbecd00d5e2d4cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbeee0666b0d01c98c69dbcfe69fc446') in 0.015535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower higher.prefab
+  artifactKey: Guid(48bd65283f7cad04c90a0b6979682b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/High Tower higher.prefab using Guid(48bd65283f7cad04c90a0b6979682b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c091c8e84c63428f833eaf621a5d574') in 0.016805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Low Grey.prefab
+  artifactKey: Guid(a3653016514fd5d4a887385869ecf300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Low Grey.prefab using Guid(a3653016514fd5d4a887385869ecf300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4893df256dd8bf2364072a4ae85154bf') in 0.016951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Basic.prefab
+  artifactKey: Guid(8daef30e2dec6a34bbbf28117bfab08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Corner Pilars Basic.prefab using Guid(8daef30e2dec6a34bbbf28117bfab08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2dfb5ebfc07f6ff41d72cf2bdea6c5') in 0.018170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Medium Grey.prefab
+  artifactKey: Guid(03b1e74f6d25c3749be74b9c50c2f58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Medium Grey.prefab using Guid(03b1e74f6d25c3749be74b9c50c2f58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca623ca94d409efdbf43b3725204cf56') in 0.018379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Needle Mini.prefab
+  artifactKey: Guid(b62d80ef1e494b044948cf4829ec690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Sky Scraper Needle Mini.prefab using Guid(b62d80ef1e494b044948cf4829ec690c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954390da2b4a24b915f8fc58c8f809ad') in 0.018323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Yellow High.prefab
+  artifactKey: Guid(d49d26ab41b3a9e44abda1055f2d6c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings City/Prefabs/Pair House Yellow High.prefab using Guid(d49d26ab41b3a9e44abda1055f2d6c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dede2d9afc1f2915e90cf70095a29b1d') in 0.018477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.372389 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Asphalt Quad.prefab
+  artifactKey: Guid(47fb51b4fff959f4fa8568029e01619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Asphalt Quad.prefab using Guid(47fb51b4fff959f4fa8568029e01619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3834e5acf8e7267cff92a7c5f66c95c9') in 0.020453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Low Poly Buildings Full Pack.prefab
+  artifactKey: Guid(0ff2dd5b373c53c4bb11e36f8c8456ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Low Poly Buildings Full Pack.prefab using Guid(0ff2dd5b373c53c4bb11e36f8c8456ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1c618305062ac196335d9dfd34fb93') in 0.017034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Fire Post.prefab
+  artifactKey: Guid(ae01dc8ef29a4024cb09c40a9b1ce362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Fire Post.prefab using Guid(ae01dc8ef29a4024cb09c40a9b1ce362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b36a543cf0a938ded6f42356367c291') in 0.021357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Fence 1.prefab
+  artifactKey: Guid(15f6ede18f3612f4da438c6094cf4b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Fence 1.prefab using Guid(15f6ede18f3612f4da438c6094cf4b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97caed0015ee6317d5a24e01edc0eedd') in 0.019143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Canal.prefab
+  artifactKey: Guid(b1c733c32dfea954f94aebe006858891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Canal.prefab using Guid(b1c733c32dfea954f94aebe006858891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c183750e1e9c3983f66cd68216f7ddc') in 0.016700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Pavement Road.prefab
+  artifactKey: Guid(7136d990e102e7f4c9225a4f1759d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Pavement Road.prefab using Guid(7136d990e102e7f4c9225a4f1759d384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6704c318bbf331bc5351fa4813f4ea7') in 0.018094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Road Crossing.prefab
+  artifactKey: Guid(f96807861d9da70428993ecd9e1ad1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Road Crossing.prefab using Guid(f96807861d9da70428993ecd9e1ad1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c6fd682c743ea30119c4d577bc35b3') in 0.017246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Spruce.prefab
+  artifactKey: Guid(8334a8307b4c8734ca624901aaa135eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Spruce.prefab using Guid(8334a8307b4c8734ca624901aaa135eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5f6203b5554dae5e678589bb252ca0') in 0.017879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Tree 1.prefab
+  artifactKey: Guid(92c68aaf8da97324793788789dbb9071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Tree 1.prefab using Guid(92c68aaf8da97324793788789dbb9071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ca2cbd28d9a2c1b3e41c0bdb3ccd02') in 0.018959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Suburb Exit Sign.prefab
+  artifactKey: Guid(97e7b931cd979a24e92ebdc048b6e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Suburb Exit Sign.prefab using Guid(97e7b931cd979a24e92ebdc048b6e106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90ae48e271919d01023564b9c9c40bc') in 0.017031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Tree 5.prefab
+  artifactKey: Guid(843b0496bdaa33049bbcce776356a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Tree 5.prefab using Guid(843b0496bdaa33049bbcce776356a428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a565044d04bd5fa8f5cc00be2c7edeb') in 0.019460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Bush Box.prefab
+  artifactKey: Guid(ad5c618c7c0b0c24ab586d25247fdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Bush Box.prefab using Guid(ad5c618c7c0b0c24ab586d25247fdb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18e79bb4e70f4e25a0214b763cc4977') in 0.018775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Downtown Exit Sign.prefab
+  artifactKey: Guid(5525a87def5805e4192977932e7b9787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Downtown Exit Sign.prefab using Guid(5525a87def5805e4192977932e7b9787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2226f18a46d295c1b73e464747776b62') in 0.019332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Traffic Light 2.prefab
+  artifactKey: Guid(aa3b1ae02ed761c47854fc891a3f449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Traffic Light 2.prefab using Guid(aa3b1ae02ed761c47854fc891a3f449a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2a3f30a51246c46f2cba6700b96331') in 0.019116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Canal End.prefab
+  artifactKey: Guid(b8af4bbaa4aec54499e9a8020b10933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Canal End.prefab using Guid(b8af4bbaa4aec54499e9a8020b10933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b753e4339111d35debebf59380c0616') in 0.018536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Road Corner.prefab
+  artifactKey: Guid(bc1e1e02c7914ad45ae5c197dc697ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Road Corner.prefab using Guid(bc1e1e02c7914ad45ae5c197dc697ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8063bf99bd4aaab523083dae7699be') in 0.017304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Garage.prefab
+  artifactKey: Guid(1442b5d2b051a0b40b3a99df44778d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Garage.prefab using Guid(1442b5d2b051a0b40b3a99df44778d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335f484321eea335bb3be496097f662d') in 0.020176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Fence 3.prefab
+  artifactKey: Guid(6475154fa45052643bd8ace7bc4c966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Enviroment/Prefabs/Fence 3.prefab using Guid(6475154fa45052643bd8ace7bc4c966b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e07c9bae1d2868334dbc566d541b3d') in 0.019034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 218.221889 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Car 1 Black.prefab
+  artifactKey: Guid(0238ca7407f87aa4ba3ff66a5e9de5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Car 1 Black.prefab using Guid(0238ca7407f87aa4ba3ff66a5e9de5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cc7f27ae39f690d7e94f43d1a03db4') in 0.022502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Lorry Green.prefab
+  artifactKey: Guid(ab1c9c1ffafadb44f9849ffc47e867c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Lorry Green.prefab using Guid(ab1c9c1ffafadb44f9849ffc47e867c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e30875c9613550fe1905ee8a064955') in 0.018903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Car 1 Green.prefab
+  artifactKey: Guid(cd1629f2d7d00a444a6bda0ca7f48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Car 1 Green.prefab using Guid(cd1629f2d7d00a444a6bda0ca7f48e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253d4a0385e0728a18be560b41dd4ede') in 0.020973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Car 1 Red.prefab
+  artifactKey: Guid(ee2c7363da7c6b24d8398b7828b7c0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Car 1 Red.prefab using Guid(ee2c7363da7c6b24d8398b7828b7c0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef080369b41bb87d2e256e1e644a14d') in 0.021742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/School Buss.prefab
+  artifactKey: Guid(9fabfbabdda46cb4f8310a9105442f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/School Buss.prefab using Guid(9fabfbabdda46cb4f8310a9105442f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b957257632a0597a64ee72affefdbab') in 0.020863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Police Car.prefab
+  artifactKey: Guid(d6533df67751e7f4da2037aa2e357c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Police Car.prefab using Guid(d6533df67751e7f4da2037aa2e357c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3681b253e90e8525d3b76b1f86d6b1a') in 0.020124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Cement Truck.prefab
+  artifactKey: Guid(b5a08c506d4c73643a261c8b4ccff98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Cement Truck.prefab using Guid(b5a08c506d4c73643a261c8b4ccff98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a63a358dc2771a4bebe5e7aed5219e') in 0.017783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Limousine Black.prefab
+  artifactKey: Guid(7242b31d8575db54f8437b446a9c8ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Vehicles/Prefabs/Limousine Black.prefab using Guid(7242b31d8575db54f8437b446a9c8ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14809df442ab37ca8a204ae3b6665898') in 0.018203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 9.632438 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Green Shirt.prefab
+  artifactKey: Guid(a100d0d5935b63d4e93c259dd451bd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Green Shirt.prefab using Guid(a100d0d5935b63d4e93c259dd451bd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabf7f490fe4bc4cc5af1422598a1c7f') in 0.372416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Suit No Hair.prefab
+  artifactKey: Guid(6c71cdadbc342804d9b7defafe15a1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Suit No Hair.prefab using Guid(6c71cdadbc342804d9b7defafe15a1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a5e5f2cf6cca877e3039e1a8174659') in 0.021849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man White T-Shirt No Hair.prefab
+  artifactKey: Guid(8ead503ecba22fb4ebe2a9ef66c5b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man White T-Shirt No Hair.prefab using Guid(8ead503ecba22fb4ebe2a9ef66c5b617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecd673295a6c4e8bd1003eee7b739dd') in 0.023557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Green Shirt No Hair.prefab
+  artifactKey: Guid(bfd506b9a6a49014592edac06b278079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Green Shirt No Hair.prefab using Guid(bfd506b9a6a49014592edac06b278079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e8569ffff03d5022abe1e38c1916fb') in 0.022217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Swim Suit.prefab
+  artifactKey: Guid(f67696064848cb740b98f7b71a277ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/Prefabs/Citizen Man Swim Suit.prefab using Guid(f67696064848cb740b98f7b71a277ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46ed1bfd9db52b59b6bf1a84ad92751') in 0.019660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 15.039608 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Basic Store.prefab
+  artifactKey: Guid(06ebcddd166047f4390fddac1b4dfc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Basic Store.prefab using Guid(06ebcddd166047f4390fddac1b4dfc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377b0dfe040c7f07b0593a674e212af2') in 0.016269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Rich House.prefab
+  artifactKey: Guid(32b58f3021eaa204e960353b6d0a27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Rich House.prefab using Guid(32b58f3021eaa204e960353b6d0a27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b706c019294ddc6cfee721583fb00f8d') in 0.017299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Ladies Gym.prefab
+  artifactKey: Guid(78416239c48d6be48b5eb9b93e033e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Ladies Gym.prefab using Guid(78416239c48d6be48b5eb9b93e033e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5f8a24dd87717aedc65f134ed701168') in 0.021000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Gym.prefab
+  artifactKey: Guid(ec794344215a45e47a5fed349adb575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Gym.prefab using Guid(ec794344215a45e47a5fed349adb575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7f43903bae0d79f2fcdcd9e221d056') in 0.019429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Pilar House.prefab
+  artifactKey: Guid(9f51802970aced34c864b98a04714993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Buildings Pack 2/Prefabs/Pilar House.prefab using Guid(9f51802970aced34c864b98a04714993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999ff27bd4f712fda4f9461bac6021f5') in 0.018988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 849.108999 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/FBX/Citizen Man/Materials/Citizen Man Green Shirt.mat
+  artifactKey: Guid(dd43d95395e61324bab6460009d89d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/FBX/Citizen Man/Materials/Citizen Man Green Shirt.mat using Guid(dd43d95395e61324bab6460009d89d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fae6772a15d26e5d3988b146fb3b51') in 0.116330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/FBX/Citizen Man/Materials/Citizen Man White T-shirt.mat
+  artifactKey: Guid(9a1b176c8da60274bbc25d70e06c6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/FBX/Citizen Man/Materials/Citizen Man White T-shirt.mat using Guid(9a1b176c8da60274bbc25d70e06c6d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15e5cb9410e54508d2414f688c8d109') in 0.019215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.307 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 31.169 seconds
+Domain Reload Profiling: 32475ms
+	BeginReloadAssembly (511ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (905ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (31170ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3591.
+Memory consumption went from 128.4 MB to 128.3 MB.
+Total: 19.740900 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.365700 ms MarkObjects: 18.860100 ms  DeleteObjects: 0.078600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.592 seconds
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.592 seconds
+Domain Reload Profiling: 2185ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (401ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1593ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (743ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3594.
+Memory consumption went from 130.6 MB to 130.5 MB.
+Total: 5.638700 ms (FindLiveObjects: 0.480900 ms CreateObjectMapping: 0.391500 ms MarkObjects: 4.694600 ms  DeleteObjects: 0.070300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.619 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.489 seconds
+Domain Reload Profiling: 2109ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (745ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (570ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3597.
+Memory consumption went from 132.5 MB to 132.5 MB.
+Total: 4.853400 ms (FindLiveObjects: 0.350600 ms CreateObjectMapping: 0.351000 ms MarkObjects: 4.082900 ms  DeleteObjects: 0.067700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.604 seconds
+Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.543 seconds
+Domain Reload Profiling: 2147ms
+	BeginReloadAssembly (236ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1544ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (740ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (573ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3600.
+Memory consumption went from 134.4 MB to 134.4 MB.
+Total: 4.938500 ms (FindLiveObjects: 0.504700 ms CreateObjectMapping: 0.561000 ms MarkObjects: 3.778600 ms  DeleteObjects: 0.092200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 777.474303 seconds.
+  path: Assets/Low Poly Buildings Full Pack/Low Poly Characters/FBX/Citizen Man/Citizen Man.fbx
+  artifactKey: Guid(b792ec489b155444fa5c62d32b33a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Buildings Full Pack/Low Poly Characters/FBX/Citizen Man/Citizen Man.fbx using Guid(b792ec489b155444fa5c62d32b33a507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ec7b754a2b6417eef077dbf9877100') in 0.551258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.152 seconds
+Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 27.709 seconds
+Domain Reload Profiling: 28861ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (818ms)
+		LoadAssemblies (934ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (27709ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.2 KB). Loaded Objects now: 3607.
+Memory consumption went from 136.3 MB to 136.2 MB.
+Total: 3.782400 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.319400 ms MarkObjects: 3.053800 ms  DeleteObjects: 0.083900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
